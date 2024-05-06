@@ -5,6 +5,8 @@ import userRoute from "./routes/user.route.js";
 
 const app = express();
 
+app.use(express.json());
+
 app.use("/tweets", tweetsRoute);
 
 app.use("/", userRoute);

@@ -24,8 +24,8 @@ export function getTweetsWithMediaControler(req, res) {
 }
 
 export function getUserControler(req, res) {
-  let theUser = req.params.handle;
-  let user = data.users.find((user) => user.titleAuthor2 == theUser);
-  console.log(user);
+  //   let theUser = req.params.handle;
+  //   let user = data.users.find((user) => user.titleAuthor2 == theUser);
+  //   console.log(user);
   res.send(data.currentUser);
 }
