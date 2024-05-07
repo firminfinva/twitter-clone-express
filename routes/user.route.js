@@ -2,15 +2,15 @@ import { Router } from "express";
 import {
   getTweetsWithMediaControler,
   getUserTweetsControler,
-  getUserControler,
+  getCurrentUserControler,
 } from "../controler/user.controler.js";
 
 const userRoute = Router();
 
 userRoute.use("/:handle/media", getTweetsWithMediaControler);
 
-userRoute.use("/:handle/tweets", getUserTweetsControler);
+userRoute.use("/user/:handle", getUserTweetsControler);
 
-userRoute.use("/user", getUserControler);
+userRoute.use("/user", getCurrentUserControler);
 
 export default userRoute;
