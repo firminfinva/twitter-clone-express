@@ -3,7 +3,7 @@ import {
   getTweetsWithMediaControler,
   getUserTweetsControler,
   getCurrentUserControler,
-} from "../controler/user.controler.js";
+} from "../controllers/user.controler.js";
 
 const userRoute = Router();
 

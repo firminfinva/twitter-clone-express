@@ -2,7 +2,7 @@ import { Router } from "express";
 import {
   tweetsControler,
   postTweetsControler,
-} from "../controler/tweets.controler.js";
+} from "../controllers/tweets.controler.js";
 
 const tweetsRoute = Router();
 

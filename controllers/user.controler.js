@@ -1,4 +1,4 @@
-import data from "./../data.js";
+import data from "../data.js";
 
 export function userControler(req, res) {
   res.send("Get user profile");
