@@ -19,4 +19,4 @@
 
 # Features:
 
-    - suer as back-end app for the app https://twitter-clone-six-sooty.vercel.app
+    - Use as back-end app for the app https://twitter-clone-six-sooty.vercel.app
