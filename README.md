@@ -17,7 +17,7 @@
 
 # Live demo
 
-    [https://twitter-clone-express-c1fq.onrender.com](https://twitter-clone-express-c1fq.onrender.com)
+    [Link to the live demo](https://twitter-clone-express-c1fq.onrender.com)
 
 # Endpoints
 
