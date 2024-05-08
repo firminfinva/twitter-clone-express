@@ -1,6 +1,6 @@
 import data from "../data.js";
 
-let tweetsTable = [...data.tweets.reverse()];
+let tweetsTable = [...data.tweets];
 
 export function tweetsControler(req, res) {
   try {
@@ -14,7 +14,7 @@ export function postTweetsControler(req, res) {
   try {
     let tweetText = req.body["tweet_body"]["tweet_text"];
     if (tweetText && tweetText.length < 181) {
-      let newTweet = [req.body, ...tweetsTable];
+      let newTweet = [...tweetsTable, req.body];
       tweetsTable = newTweet;
       res.status(200).send(req.body);
     } else {
