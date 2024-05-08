@@ -1,4 +1,6 @@
-# Installation :
+# Description :
+
+    This is a Api built in express.js for the twitter clone app built in  React.js
 
 ### cloning :
 
@@ -13,10 +15,12 @@
 
     npm run dev
 
-# Live version of the app
+# Live demo
 
-    https://twitter-clone-express-c1fq.onrender.com
+    [https://twitter-clone-express-c1fq.onrender.com](https://twitter-clone-express-c1fq.onrender.com)
 
-# Features:
+# Endpoints
 
-    - Use as back-end app for the app https://twitter-clone-six-sooty.vercel.app
+    -  [https://twitter-clone-express-c1fq.onrender.com/tweets](https://twitter-clone-express-c1fq.onrender.com/tweets)
+    -  [https://twitter-clone-express-c1fq.onrender.com/user](https://twitter-clone-express-c1fq.onrender.com/user)
+    -  [https://twitter-clone-express-c1fq.onrender.com/tweets/CNN](https://twitter-clone-express-c1fq.onrender.com/tweets/CNN)
