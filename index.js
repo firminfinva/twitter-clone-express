@@ -14,8 +14,8 @@ app.use(
     origin: [
       "http://localhost:5173",
       "https://twitter-clone-six-sooty.vercel.app",
-    ], // Change this to your localhost URL
-    methods: ["GET", "POST"], // Allow GET and POST requests
+    ],
+    methods: ["GET", "POST", "PATCH"],
   })
 );
 
